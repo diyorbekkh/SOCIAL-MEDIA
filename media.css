@@ -1,0 +1,104 @@
+/* 1200 */
+@media(max-width: 1200px) {
+    .container{
+        --container: 1024px;
+    }
+    
+    .vacancy .wrapper{
+        justify-content: center;
+    }
+
+    .about .image{
+        margin: 50px 0;
+    }
+
+}
+
+/* 1024 */
+@media(max-width: 1024px) {
+    .container{
+        --container: 992px;
+    }
+}
+
+/* 992 */
+@media(max-width: 992px) {
+    .container{
+        --container: 768px;
+    }
+    
+    .work .container .card .title{
+        flex-wrap: wrap;
+        font-size: 20px ;
+        --title: 200px;
+    }
+
+}
+
+/* 768 */
+@media(max-width: 768px) {
+    .container{
+        --container: 425px;
+    }
+
+    .container{
+        --container: 600px;
+        flex-wrap: wrap;
+    }
+
+    
+    .header .menu{
+        display: none;
+    }
+    
+    .header .container{
+        justify-content: center;
+        padding: 10px 15px 5px;
+    }
+    
+    .vacancy{
+        padding: 50px 0;
+    }
+    
+    .vacancy .title{
+        font-size: 30px;
+    }
+    
+    .vacancy .subtitle{
+        margin: 15px auto 50px;
+    }
+
+    .job .list .item{
+        width: 100%;
+    }
+}
+
+/* 425 */
+@media(max-width: 425px) {
+    .container{
+        --container: 100%;
+    }
+
+    .wrapper{
+        flex-wrap: wrap;
+        display: flex;
+        align-content: center;
+    }
+
+    .wrapper .button{
+        margin-top: 10px;
+    }
+    
+    .hero{
+        padding: 190px 0;
+    }
+    
+    .hero .btn{
+        font-size: 16px;
+    }
+}
+
+/* 320 */
+@media(max-width: 320px) {
+    
+}
